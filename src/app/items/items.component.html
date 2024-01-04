@@ -1,0 +1,18 @@
+<div class="main-container d-flex">
+    <app-sidebar>
+    </app-sidebar>
+
+    <div class="container">
+        <div class="card">
+        <div class="card-header">
+            <h2>Item List</h2>
+        </div>
+        <div class="card-body" *ngFor="let item of items">
+            <p>ItemID: {{item.item_id}}</p>
+            <p>ItemName: {{item.item_name}}</p>
+            <p>ItemPrice: {{item.item_price}}</p>
+            <button (click)="addToCart(item.item_id)">Add To Cart</button>
+        </div>
+    </div>
+    </div>
+</div>

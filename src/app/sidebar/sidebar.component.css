@@ -1,0 +1,45 @@
+.image-logo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.logo-center {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.text-center h1 {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5bc0be;
+}
+
+#button-container .btn {
+    box-shadow: #5bc0be -4px 0px;
+    font-weight: bold;
+    color: gray;
+    min-width: auto;
+    text-size-adjust: auto;
+}
+
+#button-container .btn:hover {
+    color: white;
+    background-color: #5bc0be;
+    border-color: #3a506b;
+    box-shadow: none;
+}
+
+.sidenav{
+    max-width: 280px;
+    min-height: 100%;
+    width: auto;
+    height: 100vh;
+    background-color: #3a506b;
+    position: relative;
+    top:0;
+    left: 0;
+    padding: 20px 0;
+}
